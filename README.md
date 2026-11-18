@@ -9,8 +9,8 @@ Diseño simplificado siguiendo **KISS**.
 
 ## Parte 1 (anti-patrón, solo análisis)
 ```bash
-javac -d parte1/target parte1/*.java
-java -cp parte1/target Main
+javac -d src/parte1/target src/parte1/*.java
+java -cp src/parte1/target Main
 ```
 Salida esperada: `[EMAIL] Enviando: Hola por email`
 
