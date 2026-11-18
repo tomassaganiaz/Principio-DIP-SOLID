@@ -1,0 +1,6 @@
+[EMAIL] Enviando: Hola desde Email
+[WHATSAPP] Enviando: Hola desde WhatsApp
+[SMS] Enviando: Hola desde SMS
+[PUSH] Enviando: Hola desde Push
+[EMAIL] Enviando: Notificación multi-canal
+[SMS] Enviando: Notificación multi-canal

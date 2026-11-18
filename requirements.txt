@@ -1,0 +1,2 @@
+# Proyecto Java: las dependencias se gestionan en pom.xml (Maven).
+# Requisitos: JDK 17+, Maven 3.9+

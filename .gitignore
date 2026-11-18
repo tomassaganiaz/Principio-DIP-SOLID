@@ -1,0 +1,24 @@
+# Java / Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Capturas
+docs/capturas/*.png
+!docs/capturas/.gitkeep

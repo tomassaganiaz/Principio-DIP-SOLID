@@ -1,0 +1,22 @@
+@startuml
+interface Mensajeria {
+  + enviar(mensaje: String): void
+}
+
+class EmailService implements Mensajeria
+class WhatsAppService implements Mensajeria
+class SMSService implements Mensajeria
+class PushService implements Mensajeria
+class MultiMensajeria implements Mensajeria {
+  - canales: List<Mensajeria>
+}
+
+class NotificacionService {
+  - mensajeria: Mensajeria
+  + NotificacionService(mensajeria: Mensajeria)
+  + notificar(mensaje: String): void
+}
+
+NotificacionService --> Mensajeria : depende de
+MultiMensajeria o--> Mensajeria : agrega
+@enduml
